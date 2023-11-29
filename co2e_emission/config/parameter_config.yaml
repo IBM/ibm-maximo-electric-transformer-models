@@ -1,0 +1,6 @@
+properties:
+    unit: kwh #must be kwh or wh
+    conversion_factor: 1000.0 #Has a value of 1000.0 for kwh and 1.0 for wh
+    default_emissions_rate: 0.38873727934503005 # (gram/wh)
+    energy_loss_column: energy_loss
+    location_zip_column: location_zip

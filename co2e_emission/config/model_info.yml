@@ -1,0 +1,3 @@
+model_uri: runs:/0bf6e18c4069428bb395bb3e8eac2e54/energy_loss_to_CO2_epa
+s3_uri: s3://testdataupload/9/d2dc1fcb1870406bb7f2d99e37fa823e/artifacts/energy_loss_to_CO2_epa
+train_job_id: 43d1690c-a370-4ab3-8e97-8ae9fc4acbd5

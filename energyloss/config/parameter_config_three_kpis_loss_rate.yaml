@@ -1,0 +1,20 @@
+dataset_param:
+  timestamp_col_name: 'Timestamp' # the dataset column specifies the sampling time
+  power_col_name: 'Active Power (KW)' # the dataset column specifies the power of the electrical transformer
+transformer:
+  power_unit: 'KW'  # All the output is based on this unit
+  transformer_rating: 100 # The maximum capacity to handle power without exceeding its design temperature
+  peak_power: 104.45  # The peak value of the power transferred
+estimate_loss_factor_method:  # estimate the power loss factor
+  smooth_time_period: '1h'   # Smooth time range to allow the loss factor to be smoothed (medium is used), say '1h' or '2H'
+  method: 'gustafson'  # Please choose  either 'gustafson' or 'buller_woodrow'
+  gustafson_parameter: 1.912 # only used for 'gustafson' method, should be 1.912 all the time (only pertain to USA)
+  buller_woodrow_parameter: 0.7 # only used for 'buller_woodrow' method, say 0.7, can be estimated (see README file)
+energyloss_output:
+  full_load_winding_loss: 3.5  # the energy loss in the electrical transformer's windings when operating at full load.
+  type: 'energyloss_rate'  # Can be 'energyloss_rate' with output as 'w', 'kw' or 'mw' or 'energyloss' with output as 'wh', 'kwh', or 'mwh')
+  aggregation_time_period: '1D'  # Only required and appliable when type is 'energyloss', say '1H', '2H' or '1D'
+list_of_outputs:   # Please select from the following list load_factor, loss_factor and energyloss
+  - load_factor
+  - loss_factor
+  - energyloss
