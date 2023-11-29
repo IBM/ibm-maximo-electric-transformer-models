@@ -1,0 +1,3 @@
+model_uri: runs:/ec9217cf80f841f5a3bebca8ef8632be/energyloss_AD
+s3_uri: s3://testdataupload/16/ec9217cf80f841f5a3bebca8ef8632be/artifacts/energyloss_AD
+train_job_id: 1eecb3db-4b03-49b7-a781-7c1b2e12a707
