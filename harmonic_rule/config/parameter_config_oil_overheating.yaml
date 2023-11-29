@@ -1,0 +1,16 @@
+rule: 
+  unit: Celsius
+  limits:
+    upper_limit: 130.0
+sensors:
+  - name: "OTI"
+    ratio: 1.0
+timeframes:
+  timestamp_col_name: "datetime"
+  window_size: "24H"
+  cumulative_method: percentage   # the allowed value is either percentage or count
+  cumulative_threshold: 0.03   # 3% of total monitored values above the IEEE presscribed threhold
+list_of_outputs:
+  - anomaly
+  - anomaly_sum
+  - anomaly_sum_flag

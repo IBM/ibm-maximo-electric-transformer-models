@@ -1,0 +1,6 @@
+cp4d_url: https://cpd-ibm-cpd.modelfactory-9ca4d14d48413d18ce61b80811ba4308-0000.us-south.containers.appdomain.cloud/ml/v4/deployments/ccfa8aa6-3fe4-4f78-b98d-3f2b7b4e7d7d/predictions?version=2023-11-20
+online_url:
+  url: https://cpd-ibm-cpd.modelfactory-9ca4d14d48413d18ce61b80811ba4308-0000.us-south.containers.appdomain.cloud/ml/v4/deployments/ccfa8aa6-3fe4-4f78-b98d-3f2b7b4e7d7d/predictions
+serving_urls:
+- https://cpd-ibm-cpd.modelfactory-9ca4d14d48413d18ce61b80811ba4308-0000.us-south.containers.appdomain.cloud/ml/v4/deployments/ccfa8aa6-3fe4-4f78-b98d-3f2b7b4e7d7d/predictions
+state: ready

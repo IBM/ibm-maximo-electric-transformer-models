@@ -1,0 +1,3 @@
+endpoint_url: https://api.modelfactory-9ca4d14d48413d18ce61b80811ba4308-0000.us-south.containers.appdomain.cloud/ibm/modelfactory/service/
+train_recipe_endpoint: recipe/electrical-transformer/kpi/emission/train
+deploy_recipe_endpoint: deployment/monitor/create
