@@ -28,7 +28,7 @@ We have a common structure for all the supported recipes for electrical transfor
 ├── README.md
 ├── config
 │   ├── parameter_config.yaml            <-- Configuration for the recipe training
-│   ├── train_deploy_config.yml          <-- Configuration for the train and deploy for this recipe
+│   ├── train_deploy_score_config.yml          <-- Configuration for the train and deploy for this recipe
 ├── data
 │   ├── train.csv                        <-- Sample dataset used for the model creation
 ├── cookbooks
