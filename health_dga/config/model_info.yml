@@ -1,0 +1,3 @@
+model_uri: runs:/912b21a8ef4c4de7918be3a6205b2604/best_estimator
+s3_uri: s3://testdataupload/20/912b21a8ef4c4de7918be3a6205b2604/artifacts/best_estimator
+train_job_id: a38bde3b-fcde-4fcd-891d-7b2158475e2f

@@ -10,6 +10,7 @@ The accelerator demonstrates to end-users the leverage of the IBM solution to ge
 ## API Documentation
 API Documentation is hosted on [Developer Hub](https://developer.ibm.com/apis/catalog/ai4industry--ibm-maximo-models-for-electric-transformers/api/API--ai4industry--ibm-maximo-models-for-electric-transformers#connection_check)
 
+## Model Documentation
 Here we include five examples:
 1. **CO2 Equaivent Emissions** - The energy loss to CO2 equaivent estimation provides an approach for taking energy  loss calculations and the location of the electrical transformer expressed as a zip code and using that information and CO2  energy conversion data from the EPA to generate an estimate of CO2  emissions. By calculating CO2 emissions, power companies can leverage  this information in various ways to create business value and ensure  their operations are sustainable and aligned with market demands and  regulatory requirements.
 
